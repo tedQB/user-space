@@ -50,30 +50,11 @@ $active_record = TRUE;
 
 
 
-/*
-$db['default']['hostname'] = 'admin.hk19557.yhosts.us';
-$db['default']['username'] = 'jiese360';
-$db['default']['password'] = 'jiese360--';
-$db['default']['database'] = 'jiese360';
-*/
-/*
-$db['default']['hostname'] = 'admin.sta.dprktimes.com';
-$db['default']['username'] = 'jiese';
-$db['default']['password'] = 'jiese360--';
-$db['default']['database'] = 'jiese';
-*/
 
-$db['default']['hostname'] = 'xdm45835293.my3w.com';
-$db['default']['username'] = 'xdm45835293';
-$db['default']['password'] = 'aaa121914';
-$db['default']['database'] = 'xdm45835293_db';
-
-/*
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '123';
-$db['default']['database'] = 'jiese360';
-*/
+$db['default']['hostname'] = '*****';
+$db['default']['username'] = '****';
+$db['default']['password'] = '*****';
+$db['default']['database'] = '****';
 
 
 $db['default']['dbdriver'] = 'mysql';
