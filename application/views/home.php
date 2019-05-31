@@ -103,7 +103,7 @@
 					<li class="mui-table-view-cell">小戒建议：提升思考总结能力方法<span class="mui-badge mui-badge-primary"><?=count($args['sikaozongjie'])?></span>
 						<div class="cont">
 							<b>
-								独立思考总结能力解释：能够从日常，普遍的生活，事情中，能够经常分析事件，学习书本的理论，并提炼，总结出一些规律性的戒色/生活/学习/工作感悟，能够指导自己以后的生活轨迹的能力。
+								独立思考总结能力解释：能够从日常，普遍的生活，事情中，能够经常分析事件，学习书本的理论，并提炼，总结出一些规律性的养生/生活/学习/工作感悟，能够指导自己以后的生活轨迹的能力。
 							</b>
 							<ul>
 								<?php foreach ($args['sikaozongjie'] as $key => $value) { ?>

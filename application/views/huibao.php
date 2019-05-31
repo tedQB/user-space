@@ -80,7 +80,7 @@ body{ font:12px "黑体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-s
    <div class="radio-group">
    	<strong style="color:red; ">请务必选择自评分数</strong>
 	<label>
-	  <input type="radio" name="three-radio" value="10">【优10分】我一点都没有接触黄源，并且也有学习戒色知识和帮助别人
+	  <input type="radio" name="three-radio" value="10">【优10分】我一点都没有接触黄源，并且也有学习养生知识和帮助别人
 	</label>
 	<label>
 	  <input type="radio" name="three-radio" value="5" checked>【中5分】我接触了黄源，但用方法马上止住，并遵守了2倍法则
@@ -134,7 +134,7 @@ body{ font:12px "黑体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-s
  <div>
    <div class="input-group">
 	<label for="">6.我昨日是否做到不熬夜，按时早睡</label>
-	<textarea type="text" class="form-control store" id="eight" placeholder="频繁熬夜对身体危害大，破戒概率也增高，夜晚不熬夜白天精神状态才会好，也有精力处理工作学习的事情。戒色从戒掉熬夜开始" style="width:100%; "></textarea>			
+	<textarea type="text" class="form-control store" id="eight" placeholder="频繁熬夜对身体危害大，破戒概率也增高，夜晚不熬夜白天精神状态才会好，也有精力处理工作学习的事情。养生从戒掉熬夜开始" style="width:100%; "></textarea>			
   	<span class="delete">清空</span>
   </div>
    <div class="radio-group">
@@ -152,14 +152,14 @@ body{ font:12px "黑体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-s
  </div>	
 <div>
   <div class="input-group">
-	<label for="">7.今天有以分享的戒色/生活/学习/工作感悟吗，或者我今天看到，接触了什么新的事和物让我有心得体会？</label>
+	<label for="">7.今天有以分享的养生/生活/学习/工作感悟吗，或者我今天看到，接触了什么新的事和物让我有心得体会？</label>
 	<textarea type="text" class="form-control store" id="six" placeholder="每日不能一点积累都没有，不积跬步，无以至千里。个人思想境界、成功的经验的提升积累须从一点一滴开始"></textarea>
   	<span class="delete">清空</span>
   </div>		
    <div class="radio-group">
    	<strong style="color:red; ">请务必选择自评分数</strong>
 	<label>
-	  <input type="radio" name="six-radio" value="15">【优15分】我向小戒发送了140字(微博长度)以上的戒色/生活/学习/工作感悟，能够指导自己以后的生活轨迹。
+	  <input type="radio" name="six-radio" value="15">【优15分】我向小戒发送了140字(微博长度)以上的养生/生活/学习/工作感悟，能够指导自己以后的生活轨迹。
 	</label>			
 	<label>
 	  <input type="radio" name="six-radio" value="10">【中10分】我向小戒发送了生活感悟，没有多少深度，也没超过140字
@@ -171,7 +171,7 @@ body{ font:12px "黑体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-s
 </div>
 <div>
   <div class="input-group">
-	<label for="">8.今天是否想看了戒色文章，在戒色的方面做了一些事情？是否听闻、接触、做了一些正能量的事情，得到了别人的认可？</label>
+	<label for="">8.今天是否想看了养生文章，在养生的方面做了一些事情？是否听闻、接触、做了一些正能量的事情，得到了别人的认可？</label>
 	<textarea type="text" class="form-control store" id="theve" placeholder="认真工作，运动健身，总结生活工作经验，帮助身边有困难的人，诵经念佛，正义去恶，敬老爱幼都是正能量的事情"></textarea>
  	<span class="delete">清空</span>
   </div>				
@@ -185,7 +185,7 @@ body{ font:12px "黑体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-s
 	<label>
 	  <input type="radio" name="theve-radio" value="10">【中10分】
 	  <span>我在戒友vip群里/论坛/贴吧/向小戒分享了好文章，并说出了推荐理由; </span>
-	  <span>2>我在戒友vip群里/论坛/贴吧 顶贴/回帖指导了普通戒友戒色;</span>
+	  <span>2>我在戒友vip群里/论坛/贴吧 顶贴/回帖指导了普通戒友养生;</span>
 	 </label>
 	<label>
 	  <input type="radio" name="theve-radio" value="3" checked>【差3分】我什么都没有做
@@ -199,9 +199,9 @@ body{ font:12px "黑体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-s
 		<input type="text" value="<?php echo date("Y-m-d")?>" readonly id="form_datetime" class="form-control" >
 	</div>
 </div>
-<div id="control3" style="display:none; color:blue;">温馨提示：新手不会写？日记分数太低？想努力戒色？访问<a href="http://www.jiese360.cn">www.jiese360.cn</a>观看了解其他会员的优秀日记吧</div>
+<div id="control3" style="display:none; color:blue;">温馨提示：新手不会写？日记分数太低？想努力养生？访问<a href="http://www.jiese360.cn">www.jiese360.cn</a>观看了解其他会员的优秀日记吧</div>
 </div>
-<button type="button" class="btn btn-danger" id="control">生成戒色日报</button>  
+<button type="button" class="btn btn-danger" id="control">生成养生日报</button>  
 <span id="control2" style="display:none; color:red; ">请手动复制以下日报，然后发微信给小戒就可以。</span>
 
 <div id="out">
@@ -344,7 +344,7 @@ $('#control').click(function(){
 	var tip='';  
 	
 	if(score==0||score<0){ 
-		tip="评估结果:你确定你是来戒色吗？请好好填写自评并对自己负责吧";
+		tip="评估结果:你确定你是来养生吗？请好好填写自评并对自己负责吧";
 	}
 	else if(score==2){ 
 		tip="评估结果:你好像没有进行自评，请对照自己自己的状态把分数选择清楚";
@@ -356,16 +356,16 @@ $('#control').click(function(){
 		tip="评估结果：加油吧，还差一点就到及格线了，请努力改进自己的状态，不要熬夜，健身运动，杜绝黄色信息，解决自身问题上下功夫，每天按照日报的内容执行，明天请加油";
 	}	
 	else if(score>=60&&score<80){ 
-		tip="评估结果：今天这是一份不错的戒色成绩单，希望你每天都能保持这个状态，步步前进，稳扎稳打，恶习戒除成功指日可待;你的戒色日记经过审查后会推荐到www.jiese360.cn上";
+		tip="评估结果：今天这是一份不错的养生成绩单，希望你每天都能保持这个状态，步步前进，稳扎稳打，恶习戒除成功指日可待;你的养生日记经过审查后会推荐到www.jiese360.cn上";
 	}	
 	else if(score>=80&&score<100){ 
-		tip="评估结果：你真的很棒，如果这个分数能以保持2周以上，你就离戒色成功不远了，小戒以你为荣，你的戒色日记经过审查后会推荐到www.jiese360.cn上";
+		tip="评估结果：你真的很棒，如果这个分数能以保持2周以上，你就离养生成功不远了，小戒以你为荣，你的养生日记经过审查后会推荐到www.jiese360.cn上";
 	}
 	else if(score>=100){ 
-		tip="评估结果：你简直太棒了，你已经超越了所有人，希望这是你今天真实的戒色成绩，你的戒色日记经过审查后会推荐到www.jiese360.cn上，愿荣誉永远与你同在";
+		tip="评估结果：你简直太棒了，你已经超越了所有人，希望这是你今天真实的养生成绩，你的养生日记经过审查后会推荐到www.jiese360.cn上，愿荣誉永远与你同在";
 	}			
 
-	$("#out").append("<div class='score'>你"+$('#form_datetime').val()+"的戒色成绩为："+score+" 分</div>");
+	$("#out").append("<div class='score'>你"+$('#form_datetime').val()+"的养生成绩为："+score+" 分</div>");
 	$("#out").append("<div class='result'>"+tip+"</div>");
 	
 

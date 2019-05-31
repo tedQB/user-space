@@ -53,7 +53,7 @@ body{ font:12px "黑体","Arial Narrow",HELVETICA;}
 	            <ul class="am-tabs-nav am-cf">
 	                <li class="am-active">
 	                    <a href="[data-tab-panel-0]">
-	                        戒色情况
+	                        养生情况
 	                    </a>
 	                </li>
 	                <li class="">
@@ -63,15 +63,15 @@ body{ font:12px "黑体","Arial Narrow",HELVETICA;}
 	                </li>
 	                <li class="">
 	                    <a href="[data-tab-panel-2]">
-	                       戒色排名
+	                       养生排名
 	                    </a>
 	                </li>
 	            </ul>
 	            <div class="am-tabs-bd">
 	                <div data-tab-panel-0 class="am-tab-panel am-active mui-table-view">
 	             		<div class="grid mui-table-view-cell">已经戒天数：<?=$args['jieseInfo']['hasTime']?>天</div>
-	             		<div class="grid mui-table-view-cell">所处戒色状态：<?=$args['jieseInfo']['jieseState']?></div>
-	             		<div class="grid mui-table-view-cell">戒色等级：<?=$args['jieseInfo']['level']?> 
+	             		<div class="grid mui-table-view-cell">所处养生状态：<?=$args['jieseInfo']['jieseState']?></div>
+	             		<div class="grid mui-table-view-cell">养生等级：<?=$args['jieseInfo']['level']?> 
 						<?php if($args['jieseInfo']['hasTime']<368){?>
 	             		还有<?=$args['jieseInfo']['nextLevelDay']?>天升级到 <?=$args['jieseInfo']['nextLevel']?> <img src="<?=$args['jieseInfo']['nextImgUrl']?>" style="width:16px; height:16px; border-radius:2px;  "/>
 	             		<?php } else { ?>
@@ -95,7 +95,7 @@ body{ font:12px "黑体","Arial Narrow",HELVETICA;}
 	                	<?php } else if($args['vipInfo']['jieseTime']>=120 && $args['vipInfo']['isShow'] == 1){ ?>
 							<div class="grid mui-table-view-cell">由于你30天没有上报成绩，排行榜单隐藏，上报后明日恢复</div>
 	                	<?php } else{ ?>
-	                		<div class="grid mui-table-view-cell">你位于戒色英雄帮单第<?=$args['rankInfo']?>位 <a href="<?php 
+	                		<div class="grid mui-table-view-cell">你位于养生英雄帮单第<?=$args['rankInfo']?>位 <a href="<?php 
 	                		echo 'http://'.$_SERVER['HTTP_HOST'].'/rank/index/i/'.$args['slug'];
 	                		?>" class="link">点击查看</a></div>
 	                	<?php } ?>
