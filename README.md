@@ -20,6 +20,10 @@
 
 php + codeigniter + mysql + seajs + aralejs + es5 + highcharts + muicss
 
+## 预览
+<img src='https://github.com/tedQB/user-space/blob/master/img/01.jpg?raw=true' width=200/><img src='https://github.com/tedQB/user-space/blob/master/img/02.jpg?raw=true' width=200 />
+
+
 ## 项目运行
 
 
